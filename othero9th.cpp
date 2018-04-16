@@ -54,8 +54,8 @@ for(i=0;i<n;i++)
     else 
       i=0; 
   } 
-  printf("\nAverage Waiting Time= %f\n",waittime/n); 
-  printf("Avg Turnaround Time = %f",turntime/n); 
+  printf("\nAverage Waiting Time= %f\n",waittime*1.0/n); 
+  printf("Avg Turnaround Time = %f",turntime*1.0/n); 
   
   return 0; 
 }
